@@ -1,0 +1,57 @@
+<<<<<<< HEAD
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer components {
+  .chat-bubble-user {
+    @apply bg-blue-600 text-white rounded-2xl rounded-br-md px-4 py-2.5 max-w-xs md:max-w-md ml-auto;
+  }
+  .chat-bubble-ai {
+    @apply bg-gray-100 text-gray-800 rounded-2xl rounded-bl-md px-4 py-2.5 max-w-xs md:max-w-md;
+  }
+  .chat-bubble-tool {
+    @apply bg-green-50 border border-green-200 text-green-800 rounded-xl px-4 py-3 max-w-xs md:max-w-md text-sm;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+=======
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+>>>>>>> c74a5026bd12c1f8919c6e62b9c0dcd38145b811
+}
