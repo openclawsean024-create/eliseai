@@ -294,6 +294,8 @@ export default function Home() {
             className="px-4 py-2 text-sm bg-gray-100 hover:bg-gray-200 rounded-xl transition">知識庫</button>
           <button onClick={() => setShowSettings(true)}
             className="px-4 py-2 text-sm bg-blue-600 text-white hover:bg-blue-700 rounded-xl transition">⚙️</button>
+          <a href="/admin" target="_blank"
+            className="px-4 py-2 text-sm bg-gray-100 hover:bg-gray-200 rounded-xl transition">📦</a>
         </div>
       </header>
 
